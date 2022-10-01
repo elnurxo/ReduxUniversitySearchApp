@@ -6,8 +6,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.searchBtn{
+  border-radius: 6px !important;
+  background-color: green !important;
+  color: white !important;
+  font-weight: bold !important;
+  padding: 0px 20px !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container {
+  padding: 4rem;
+    width: 70%;
+    margin: auto;
 }
