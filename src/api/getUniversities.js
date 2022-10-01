@@ -9,9 +9,9 @@ function fetchUniversities(searchValue) {
         }
         fetch(baseURL)
             .then(res => res.json())
-            .then(res => {
-                dispatch(fetchUniversitiesSuccess(res))
-                return res;
+            .then(data => {
+                dispatch(fetchUniversitiesSuccess(data))
+                return data;
             })
             .catch(error => {
                 dispatch(fetchUniversitiesError(error));
